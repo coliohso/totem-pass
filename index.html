@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Totem Pass</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <!-- Mobile Header -->
+  <div class="mobile-header">
+    <a href="/" class="mobile-logo">Totem Pass</a>
+    <button class="hamburger" onclick="document.querySelector('.mobile-nav').classList.toggle('open')" aria-label="Menu">☰</button>
+  </div>
+  <div class="mobile-nav">
+    <a href="/writing/">Writing</a>
+    <a href="/images/">Images</a>
+    <a href="/oracles/">Oracles</a>
+    <a href="/about/">About</a>
+  </div>
+
+  <div class="site">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <a href="/" class="logo">Totem Pass</a>
+      <div class="tagline">a cabinet for writing,<br>images, and oracles</div>
+
+      <nav class="nav">
+        <div class="nav-line"></div>
+        <a href="/writing/">Writing</a>
+        <a href="/images/">Images</a>
+        <a href="/oracles/">Oracles</a>
+        <a href="/about/">About</a>
+        <div class="nav-line"></div>
+      </nav>
+
+      <div class="sidebar-footer">© 2026</div>
+    </aside>
+
+    <!-- Main -->
+    <div class="main">
+      <div class="animate-in">
+        <p class="section-desc">A cabinet for writing, images, and oracles.</p>
+
+        <div style="border-top: 1px solid var(--line); padding-top: 2rem;">
+          <span class="label">Recent</span>
+
+          <div class="entry-list">
+            <a href="/writing/" class="entry">
+              <span class="entry-date">2026.02.10</span>
+              <span class="entry-title">On the reorganization of language</span>
+              <span class="entry-section">writing</span>
+            </a>
+            <a href="/images/" class="entry">
+              <span class="entry-date">2026.02.07</span>
+              <span class="entry-title">Plate studies — birch series</span>
+              <span class="entry-section">images</span>
+            </a>
+            <a href="/oracles/" class="entry">
+              <span class="entry-date">2026.01.28</span>
+              <span class="entry-title">Thresholds v0.3</span>
+              <span class="entry-section">oracles</span>
+            </a>
+            <a href="/writing/" class="entry">
+              <span class="entry-date">2026.01.15</span>
+              <span class="entry-title">Letters to myself (December)</span>
+              <span class="entry-section">writing</span>
+            </a>
+            <a href="/writing/" class="entry">
+              <span class="entry-date">2026.01.09</span>
+              <span class="entry-title">Aerogel / dialectics of support</span>
+              <span class="entry-section">writing</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
